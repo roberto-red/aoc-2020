@@ -4,7 +4,7 @@ const path = require('path')
 const input = fs.readFileSync(path.join(__dirname, 'day4.input.txt'), 'utf-8')
 
 const countPassports = () => {
-  return false
+  return 1
 }
 
 module.exports = {
